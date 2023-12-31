@@ -182,3 +182,68 @@ using namespace std;
 
 //     }
 // }
+
+
+
+// void wavePrint(int arr[][2],int nRows,int mCol )
+// {
+//     // int ans[2][2];
+//     for(int col=0;col<mCol;col++)
+//     {
+//         if(col&1)
+//         {
+//             for(int row=nRows-1;row>=0;row--)
+//             {
+//                 cout<<arr[row][col]<<" ";
+//             }
+//         }
+//         else{
+//             for(int row=0;row<nRows;row++)
+//             {
+//                 cout<<arr[row][col]<<" ";
+//             }
+//         }
+//     }
+
+// }
+// int main()
+// {
+//     int arr[2][2];
+//     for(int i=0;i<2;i++)
+//     {
+//        for(int j=0;j<2;j++)
+//        {
+//         cin>>arr[i][j];
+//        }
+//     }
+//     wavePrint(arr,2,2);
+// }
+
+// void rotatebyninety(int arr[][3],int i,int j)
+// {
+//     for(int row=0;row<i;row++)
+//     {
+//         for(int col=row;col<j;col++ )
+//         {
+//             swap(arr[row][col],arr[col][row]);
+//         }
+//     }
+// }
+
+
+// int main()
+// {
+//     int arr[3][3] = {1,2,3,4,5,6,7,8,9};
+
+
+//     rotatebyninety(arr,3,3);
+
+
+//      for(int row=0;row<3;row++)
+//     {
+//         for(int col=row;col<3;col++ )
+//         {
+//             cout<<arr[row][col]<<" ";
+//         }
+//     }
+// }
